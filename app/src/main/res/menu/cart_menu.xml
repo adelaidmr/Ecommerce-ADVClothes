@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <item android:id="@+id/cart_item"
+       android:icon="@mipmap/ic_cart"
+       android:title="Cart"
+       android:actionLayout="@layout/custom_action_layout"
+       android:showAsAction="ifRoom"
+       />
+
+</menu>
